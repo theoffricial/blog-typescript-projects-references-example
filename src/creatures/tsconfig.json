@@ -1,7 +1,10 @@
 {
+    // extending the baseline <rootDir>/tsconfig.base.json
     "extends": "../../tsconfig.base.json",
     "compilerOptions": {
+      // output directory, we want all projects to sit in a convenient place
       "outDir": "../../build/creatures",
+      // Ensures this project is only ".ts" files under this directory
       "rootDir": ".",
     }
 }

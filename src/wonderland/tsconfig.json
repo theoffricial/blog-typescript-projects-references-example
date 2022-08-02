@@ -4,6 +4,7 @@
       "outDir": "../../build/wonderland",
       "rootDir": "."
     },
+    // referenced projects DEPENDS ON: creatures, formatting
     "references": [
       { "path": "../formatting" },
       { "path": "../creatures" },
