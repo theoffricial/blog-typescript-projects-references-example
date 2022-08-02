@@ -1,6 +1,6 @@
-// The baseline for all projects
-// On top of this baseline each referenced project can add its own custom configuration
 {
+    // The baseline for all projects
+    // On top of this baseline each referenced project can add its own custom configuration
     "compilerOptions": {
         "target": "es5",
         "module": "commonjs",
