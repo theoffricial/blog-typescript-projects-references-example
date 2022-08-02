@@ -5,6 +5,7 @@
         "strict": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
+        "esModuleInterop": true,
         // Reference projects
         // "declarationMap": true,
         "composite": true,

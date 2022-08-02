@@ -1,7 +1,7 @@
 {
     "extends": "../../tsconfig.base.json",
     "compilerOptions": {
-      "outDir": "../../build/shared",
+      "outDir": "../../build/formatting",
       "rootDir": ".",
     },
     "references": [

@@ -5,7 +5,7 @@
         "path": "./src/creatures"
       },
       {
-        "path": "./src/shared"
+        "path": "./src/formatting"
       },
       {
         "path": "./src/wonderland"
