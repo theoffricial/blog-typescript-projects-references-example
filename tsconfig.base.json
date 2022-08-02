@@ -1,17 +1,33 @@
+// The baseline for all projects
+// On top of this baseline each referenced project can add its own custom configuration
 {
     "compilerOptions": {
         "target": "es5",
         "module": "commonjs",
+        // strict
         "strict": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "esModuleInterop": true,
-        // Reference projects
-        // "declarationMap": true,
-        "composite": true,
-        // "incremental": true,
-        // "tsBuildInfoFile": ".tsbuildinfo",
-        // 
-        "importHelpers": true,
+        "importHelpers": true, // optimizes TypeScript output usage of its helper functions
+                               // See more: https://unicop.art/tslib
+
+        // Reference projects configuration
+
+        "noEmitOnError": true, // Set to "true" by default once working with project references
+                               // The TypeScript team strongly warns not to change this behavior when working with incremental build.
+                               // See more: https://www.typescriptlang.org/docs/handbook/project-references.html#caveats
+
+        "composite": true, // Enable constraints that allow a TypeScript project to be used with project references.
+                           // See more: https://www.typescriptlang.org/tsconfig#composite
+
+        // "declarationMap": true, // Create sourcemaps for d.ts files.
+                                   // See more: https://www.typescriptlang.org/tsconfig#declarationMap
+
+        // "incremental": true, // Enable incremental compilation. Supported by default with composite & project references
+                                // Requires TypeScript version 3.4 or later.
+        
+        // "tsBuildInfoFile": "tsconfig.tsbuildinfo", // Specify the folder for .tsbuildinfo incremental compilation files.
+                                              // See more: https://www.typescriptlang.org/tsconfig#tsBuildInfoFile
     }
 }

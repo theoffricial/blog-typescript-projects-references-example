@@ -9,6 +9,7 @@ var whiteRabbit = new creatures_1.WhiteRabbit();
 function initialWonderland() {
     console.log(chalk_1.default.bgBlue(chalk_1.default.whiteBright("This is Wonderland!")));
     console.log(chalk_1.default.bgMagenta("Now all creatures introduce themselves:"));
+    // creatures say hello
     console.log(chalk_1.default.bgGreen(chalk_1.default.black("1. ".concat((0, formatting_1.formatNameAndSound)(cheshire)))));
     console.log(chalk_1.default.bgWhite(chalk_1.default.black("2. ".concat((0, formatting_1.formatNameAndSound)(whiteRabbit)))));
 }

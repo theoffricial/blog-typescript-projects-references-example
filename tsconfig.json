@@ -1,7 +1,10 @@
 {
+    // empty because all code delegated to referenced projects 👇
     "files": [],
+    // Referenced projects. Requires TypeScript version 3.0 or later.
     "references": [
       {
+        // Path to referenced tsconfig or to folder containing tsconfig.
         "path": "./src/creatures"
       },
       {
