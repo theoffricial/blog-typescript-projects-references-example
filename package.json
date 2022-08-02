@@ -1,0 +1,28 @@
+{
+  "name": "typescript-projects-references-example",
+  "version": "1.0.0",
+  "description": "Example how to work with TypeScript Projects References for baster builds",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "prestart": "npm run build",
+    "start": "node ./build/wonderland/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unicop-art/typescript-projects-references-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unicop-art/typescript-projects-references-example/issues"
+  },
+  "homepage": "https://github.com/unicop-art/typescript-projects-references-example#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "tslib": "^2.4.0"
+  }
+}

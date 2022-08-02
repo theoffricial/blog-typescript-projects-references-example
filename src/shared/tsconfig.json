@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+      "outDir": "../../build/shared",
+      "rootDir": ".",
+    },
+    "references": [
+      { "path": "../creatures" }
+    ]
+  }

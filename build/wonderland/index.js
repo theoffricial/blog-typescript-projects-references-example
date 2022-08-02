@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var creatures_1 = require("../creatures");
+var shared_1 = require("../shared");
+var cheshire = new creatures_1.CheshireCat();
+var whiteRabbit = new creatures_1.WhiteRabbit();
+console.log("This is Wonderland!");
+console.log("Now all creatures introduce themselves:");
+console.log((0, shared_1.formatNameAndSound)(cheshire));
+console.log((0, shared_1.formatNameAndSound)(whiteRabbit));

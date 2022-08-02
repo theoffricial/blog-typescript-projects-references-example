@@ -1,0 +1,14 @@
+{
+    "files": [],
+    "references": [
+      {
+        "path": "./src/creatures"
+      },
+      {
+        "path": "./src/shared"
+      },
+      {
+        "path": "./src/wonderland"
+      }
+    ]
+  }
