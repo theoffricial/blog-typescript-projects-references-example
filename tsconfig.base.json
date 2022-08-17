@@ -22,7 +22,7 @@
         "types" : ["node", "jest"],
         "paths": {
             // for monorepos
-            // "@<scope>/<package-name>": ["libs/shared/src/index.ts"]
+            "@my-org/my-package-name": ["packages/my-package/src/index.ts"]
         },
         
         // baseline should be about options
