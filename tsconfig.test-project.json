@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+      "declaration": false,
+      "noEmit": true,
+      "composite": true,
+      "incremental": true
+    },
+    "include": ["**/*.test.ts"],
+    "exclude": [
+      "node_modules",
+      "tmp"
+    ]
+  }

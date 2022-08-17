@@ -1,17 +1,28 @@
 {
     // empty because all code delegated to referenced projects 👇
     "files": [],
+    "compilerOptions": {
+      "disableSourceOfProjectReferenceRedirect": true,
+    },
     // Referenced projects. Requires TypeScript version 3.0 or later.
     "references": [
       {
         // Path to referenced tsconfig or to folder containing tsconfig.
         "path": "./src/creatures"
       },
+      // formatting
       {
         "path": "./src/formatting"
       },
+      // formatting testing
+      {
+        "path": "./src/formatting/tsconfig.test.json"
+      },
       {
         "path": "./src/wonderland"
+      },
+      {
+        "path": "./src/giant-system-part"
       }
     ]
   }

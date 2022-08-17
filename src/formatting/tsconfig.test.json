@@ -1,0 +1,12 @@
+{
+    "extends": "../../tsconfig.tests-settings.json",
+    "compilerOptions": {
+      "rootDir": ".",
+      "outDir": "../../build/tests/formatting"
+    },
+    // referenced projects DEPENDS ON: creatures
+    "references": [
+      { "path": "../creatures" },
+      { "path": "." },
+    ]
+}

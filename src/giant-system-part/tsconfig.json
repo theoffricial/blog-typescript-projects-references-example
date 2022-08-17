@@ -1,0 +1,9 @@
+{
+    "extends": "../../tsconfig.settings.json",
+    "compilerOptions": {
+      "outDir": "../../build/giant-system-part",
+      "rootDir": "."
+    },
+    // referenced projects DEPENDS ON: 
+    "references": []
+  }

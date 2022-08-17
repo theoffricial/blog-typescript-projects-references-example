@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -b",
+    "build:classic": "tsc -p tsconfig.classic.json",
     "prestart": "npm run build",
-    "start": "node ./build/wonderland/initial-wonderland.js"
+    "start": "node ./build/wonderland/initial-wonderland.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,9 @@
   },
   "homepage": "https://github.com/unicop-art/typescript-projects-references-example#readme",
   "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
     "typescript": "^4.7.4"
   },
   "dependencies": {

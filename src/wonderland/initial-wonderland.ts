@@ -10,6 +10,9 @@ function initialWonderland() {
     // creatures say hello
     console.log(chalk.bgGreen(chalk.black(`1. ${formatNameAndSound(cheshire)}`)))
     console.log(chalk.bgWhite(chalk.black(`2. ${formatNameAndSound(whiteRabbit)}`)))
+    console.log(chalk.bgWhite(chalk.black(`2. ${formatNameAndSound(whiteRabbit)}`)))
+    console.log(chalk.bgWhite(chalk.black(`2. ${formatNameAndSound(whiteRabbit)}`)))
+    console.log(chalk.bgWhite(chalk.black(`2. ${formatNameAndSound(whiteRabbit)}`)))
 }
 
 initialWonderland()

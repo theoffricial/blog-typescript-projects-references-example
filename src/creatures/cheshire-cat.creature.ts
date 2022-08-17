@@ -8,3 +8,5 @@ export class CheshireCat implements ICreature {
         return 'Cheshire the cat'
     };
 }
+
+console.log(3)

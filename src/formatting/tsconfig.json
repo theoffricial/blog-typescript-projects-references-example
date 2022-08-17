@@ -1,11 +1,12 @@
 {
-    "extends": "../../tsconfig.base.json",
+    "extends": "../../tsconfig.settings.json",
     "compilerOptions": {
-      "outDir": "../../build/formatting",
       "rootDir": ".",
+      "outDir": "../../build/formatting",
     },
+    "exclude": ["**/*.test.ts"],
     // referenced projects DEPENDS ON: creatures
     "references": [
-      { "path": "../creatures" }
+      { "path": "../creatures" },
     ]
-  }
+}

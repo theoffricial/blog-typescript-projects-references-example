@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "build-classic",
+        "target": "es5",
+        "module": "commonjs",
+        // "incremental": true,
+        // "tsBuildInfoFile": "build-classic/.tsbuildinfo",
+        // type-checking
+        "declaration": true,
+        "skipLibCheck": true,
+        "isolatedModules": true,
+        "types": ["node", "jest"],
+        "sourceMap": true,
+        // strict
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "noEmitOnError": true
+    },
+    "exclude": ["**/*.test.ts", "jest.config.ts", "build", "build-classic"]
+}
