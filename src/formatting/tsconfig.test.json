@@ -4,7 +4,7 @@
       "rootDir": ".",
       "outDir": "../../build/tests/formatting"
     },
-    // referenced projects DEPENDS ON: creatures
+    // referenced projects DEPENDS ON: creatures, formatting source-files
     "references": [
       { "path": "../creatures" },
       { "path": "." },
